@@ -1,5 +1,6 @@
 <script>
   import { fade } from 'svelte/transition';
+  import { base } from '$app/paths';
 
   let { data } = $props();
 
@@ -22,7 +23,7 @@
       <ul>
         {#each data.categories as category}
           <li>
-            <a href="/writtings/category/{category}">
+            <a href="{base}/writings/category/{category}">
               {category}
             </a>
           </li>

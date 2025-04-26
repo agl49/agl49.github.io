@@ -1,12 +1,13 @@
 import { goto } from '$app/navigation';
+import { base } from '$app/paths';
 
 function openExternalLink(url) {
   window.open(url, '_blank');
 }
 
 export const pageButtons = [
-  { id: 0, label: 'Home //', onClick: () => goto('/') },
-  { id: 1, label: 'Writtings //', onClick: () => goto('/writtings') }
+  { id: 0, label: 'Home //', onClick: () => goto(base + '/') },
+  { id: 1, label: 'Writings //', onClick: () => goto(base + '/writings') }
   // { id: 2, label: 'Demos //', onClick: () => goto('/demos') },
   // { id: 3, label: 'Contact //', onClick: () => goto('/contact') }
 ];
@@ -20,6 +21,8 @@ export const socialLinks = [
 ];
 
 export const categoryTags = ['numbers', 'odd', 'even'];
+
+export const postList = ['test_post_1', 'test_post_2'];
 
 export const experience = [
   {

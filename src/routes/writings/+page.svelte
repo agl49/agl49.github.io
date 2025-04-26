@@ -1,6 +1,7 @@
 <script>
   import { fade } from 'svelte/transition';
   import { getContext } from 'svelte';
+  import { base } from '$app/paths';
 
   let { data } = $props();
   let tag = $state('');
@@ -26,7 +27,7 @@
     {#each filteredPosts as post}
       <li>
         <h2>
-          <a href={post.path}>
+          <a href={base + post.path}>
             {post.meta.title}
           </a>
         </h2>

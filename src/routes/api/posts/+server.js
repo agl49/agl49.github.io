@@ -17,3 +17,5 @@ export async function GET() {
 
   return json(sortedPosts);
 }
+
+export const prerender = true;

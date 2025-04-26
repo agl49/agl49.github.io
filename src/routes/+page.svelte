@@ -3,6 +3,7 @@
   import { experience } from '../lib/constants';
   let nothing = $state(); // vscode calls this legacy mode other wise.
   import { fade, draw } from 'svelte/transition';
+  import { base } from '$app/paths';
 </script>
 
 <main in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }}>
@@ -24,9 +25,11 @@
   <div class="me">
     <p>
       I'm Adrian. You'll find anything I find intresting posted here as well as my work. For
-      professional outreach, refer to my linkedin. Look here for my <a href="/writtings">blog</a>
+      professional outreach, refer to my linkedin. Look here for my <a href="{base}/writings"
+        >blog</a
+      >
       and
-      <a href="/demos">personal projects</a>.
+      <a href="{base}/demos">personal projects</a>.
     </p>
     <h2>Experience</h2>
     {#each experience as ex}
