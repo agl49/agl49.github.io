@@ -1,0 +1,2 @@
+import{t as a,a as o}from"./B9UmkhgN.js";import"./3zJofmEL.js";import{a9 as n}from"./Cu3mfQ7C.js";const s={title:"Test Post One",date:"2021-12-14",categories:["numbers","odd"]},{title:p,date:c,categories:g}=s;var i=a('<h1 id="heading-one"><a aria-hidden="true" tabindex="-1" href="#heading-one"><span class="icon icon-link"></span></a>Heading one</h1> <p>Hello, I am <em>Post One.</em></p> <p><strong>Nice to meet you!</strong></p>',1);function l(e){var t=i();n(4),o(e,t)}export{l as default,s as metadata};
+//# sourceMappingURL=B-kb9R_6.js.map
