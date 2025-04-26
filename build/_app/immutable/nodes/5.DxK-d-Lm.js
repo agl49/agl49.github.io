@@ -1,2 +1,0 @@
-import{t as r,a as s}from"../chunks/B9UmkhgN.js";import{t as a,f as e}from"../chunks/masxan3m.js";var m=r(`<div><h1 class="main svelte-8vlsl2">Demos page</h1> <p>I'll add more stuff here once I have some more modern stuff to show off.</p></div>`);function f(t){var o=m();a(1,o,()=>e,()=>({duration:150,delay:150})),a(2,o,()=>e,()=>({duration:150})),s(t,o)}export{f as component};
-//# sourceMappingURL=5.DxK-d-Lm.js.map
